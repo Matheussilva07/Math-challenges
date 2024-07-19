@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.TmwZkv2vBe5zrAfIV_3pqQAAAA?rs=1&pid=ImgDetMain">
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" type="module" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,17 +15,20 @@
     </header>
 
     <aside>
-        <a href="">Soma</a>
-        <a href="">Subtração</a>
-        <a href="">Multiplicação</a>
-        <a href="">Divisão</a>
-        <a href="">Raiz Quadrada</a>
-        <a href="">Porcentagem</a>
+        <button>Soma</button>
+        <button>Subtração</button>
+        <button>Multiplicação</button>
+        <button>Divisão</button>
+        <button>Raiz Quadrada</button>
+        <button>Porcentagem</button>
+
     </aside>
 
     <main>
-        <h2>Motivos para estudar matenmática:</h2>
-            <p>Estudar matemática traz diversos benefícios, tais como12:</p>
+        <div id="conteudo">
+            <h2>Motivos para estudar matemática:</h2>
+
+            <p>Estudar matemática traz diversos benefícios, tais como:</p>
             <ul>
                 <li>Promoção da autoconfiança</li>
                 <li>Aumento da capacidade de resolver problemas no dia a dia</li>
@@ -39,13 +43,29 @@
                 A compreensão da matemática pode ser adquirida de várias maneiras, como na vida escolar, na interação social, 
                 através de observações, na prática de tarefas que a exija, em diálogos, em cursos de formação ou especialização5.
             </p>
+        </div>
+        
+            <img src="https://th.bing.com/th/id/OIP.Q0BlKC9vBzebt3-yWGhlmwHaEo?rs=1&pid=ImgDetMain" alt="imagem de uma foto de números">
     </main>
 
     <footer>
         <p>&copy; Direitos de copia reservados</p>
     </footer>
 
-    <div id="painel"></div>
+    <div id="painel" class="">
+
+
+       <input class="input1" type="text">
+
+       <p class="tipoOperacao">Simbolo</p>
+
+       <input class="input2" type="text">
+       <input class="boxResultado" type="text">
+
+       <button class="botaoCalcular">Calcular</button>
+        <button class="BotaoSair">Voltar</button>
+
+    </div>
 
 </body>
 </html>
